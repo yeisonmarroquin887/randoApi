@@ -19,11 +19,14 @@ function App() {
  }
   return (
     <div className="App">
+      <section id='text'>
       <h1>Hello welcome,thanks for entering my 
         website here you can see 
         the beautiful cards of some
          important people, you can enter 
          the number of cards you want to see below and see them with a click</h1>
+      </section>
+   
   <form onSubmit={handelsearch}>
   <button>Click</button>
     <input id='input' type="number" />
